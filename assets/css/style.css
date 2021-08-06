@@ -150,10 +150,13 @@ html{
 
 }
 #content .content-section {
-    max-width: 800px;
+    width: 800px;
+    max-width: 100%;/*Khi thu nhỏ màng hình lại nhỏ hơn 800 thì nó kích hoạt này*/
     margin-left: auto;
     margin-right: auto;
     padding: 64px 0px 112px;
+    padding-left: 16px;/*Xử lý sau khi điều chỉnh trên tablet*/
+    padding-right: 16px;/*Xử lý sau khi điều chỉnh trên tablet*/
 }
 #content .section-heading {
     text-align: center;
@@ -428,4 +431,21 @@ html{
         opacity: 1;
         transform: translateY(0px);
     }
+}
+/*Responsive*/
+/*PC>=1024px
+Tablet:>=740px && <1204px
+mobile:<740px*/
+
+/*PC>=1024px*/
+@media (min-width:1024px){
+    
+}
+/*Tablet*/
+@media (min-width:740px) and (max-width:1023px){
+
+}
+/*Mobile*/
+@media (max-width:739px){
+
 }
