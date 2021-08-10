@@ -138,7 +138,8 @@ html{
     position: relative;
     margin-top: 46px;/*Cho nó cách header đang nổi*/
     padding-top: 50%;
-    background: url('/assets/img/slider/slider2.jpg') top center / cover no-repeat;
+    background: url('/assets/img/slider/23.jpg') top center / cover no-repeat;
+    min-height: 500px;
 }
 #slider .text-content {
     position: absolute;
